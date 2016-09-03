@@ -13,6 +13,7 @@
 		4075C8341D7ACDF60088CAD4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4075C8321D7ACDF60088CAD4 /* Main.storyboard */; };
 		4075C8361D7ACDF60088CAD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4075C8351D7ACDF60088CAD4 /* Assets.xcassets */; };
 		4075C8391D7ACDF60088CAD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4075C8371D7ACDF60088CAD4 /* LaunchScreen.storyboard */; };
+		4075C8421D7ACF330088CAD4 /* PPTCollectionViewCircleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4075C8411D7ACF330088CAD4 /* PPTCollectionViewCircleLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		4075C8351D7ACDF60088CAD4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4075C8381D7ACDF60088CAD4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4075C83A1D7ACDF60088CAD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4075C8401D7ACF330088CAD4 /* PPTCollectionViewCircleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPTCollectionViewCircleLayout.h; sourceTree = "<group>"; };
+		4075C8411D7ACF330088CAD4 /* PPTCollectionViewCircleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPTCollectionViewCircleLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 		4075C8281D7ACDF60088CAD4 /* collectionViewLayout */ = {
 			isa = PBXGroup;
 			children = (
+				4075C8401D7ACF330088CAD4 /* PPTCollectionViewCircleLayout.h */,
+				4075C8411D7ACF330088CAD4 /* PPTCollectionViewCircleLayout.m */,
 				4075C82C1D7ACDF60088CAD4 /* AppDelegate.h */,
 				4075C82D1D7ACDF60088CAD4 /* AppDelegate.m */,
 				4075C82F1D7ACDF60088CAD4 /* ViewController.h */,
@@ -150,6 +155,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4075C8311D7ACDF60088CAD4 /* ViewController.m in Sources */,
+				4075C8421D7ACF330088CAD4 /* PPTCollectionViewCircleLayout.m in Sources */,
 				4075C82E1D7ACDF60088CAD4 /* AppDelegate.m in Sources */,
 				4075C82B1D7ACDF60088CAD4 /* main.m in Sources */,
 			);

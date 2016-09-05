@@ -8,6 +8,22 @@
 
 #import <UIKit/UIKit.h>
 
+
+@protocol PPTCollectionViewCircleLayoutDelegate <NSObject>
+
+@optional
+- (CGPoint)itemLocationCollectionView:(UICollectionView *)collectionView indexPath:(NSIndexPath *)indexPath;
+- (CGPoint)centerItemLocationCollectionView:(UICollectionView *)collectionView indexPath:(NSIndexPath *)index;
+
+@required
+- (CGSize)itemSizeCollectionView:(UICollectionView *)collectionView indexPath:(NSIndexPath *)indexPath;
+
+
+@end
+
+
 @interface PPTCollectionViewCircleLayout : UICollectionViewFlowLayout
+@property (nonatomic,assign) UIEdgeInsets edge;
+@property (nonatomic,weak) id <PPTCollectionViewCircleLayoutDelegate>delegate;
 
 @end

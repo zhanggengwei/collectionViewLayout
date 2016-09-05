@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1FF6287F9CB9BAFD4BF946D6 /* libPods-collectionViewLayout.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AB587A780A81B18B73668D73 /* libPods-collectionViewLayout.a */; };
 		4075C82B1D7ACDF60088CAD4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4075C82A1D7ACDF60088CAD4 /* main.m */; };
 		4075C82E1D7ACDF60088CAD4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4075C82D1D7ACDF60088CAD4 /* AppDelegate.m */; };
 		4075C8311D7ACDF60088CAD4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4075C8301D7ACDF60088CAD4 /* ViewController.m */; };
@@ -14,6 +15,9 @@
 		4075C8361D7ACDF60088CAD4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4075C8351D7ACDF60088CAD4 /* Assets.xcassets */; };
 		4075C8391D7ACDF60088CAD4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4075C8371D7ACDF60088CAD4 /* LaunchScreen.storyboard */; };
 		4075C8421D7ACF330088CAD4 /* PPTCollectionViewCircleLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 4075C8411D7ACF330088CAD4 /* PPTCollectionViewCircleLayout.m */; };
+		4075C8451D7D110F0088CAD4 /* PPTImageCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4075C8441D7D110F0088CAD4 /* PPTImageCollectionViewCell.m */; };
+		4075C8481D7D17630088CAD4 /* PPTPoingDateView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4075C8471D7D17630088CAD4 /* PPTPoingDateView.m */; };
+		4075C84B1D7D32530088CAD4 /* PPTPoint.m in Sources */ = {isa = PBXBuildFile; fileRef = 4075C84A1D7D32530088CAD4 /* PPTPoint.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +33,15 @@
 		4075C83A1D7ACDF60088CAD4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4075C8401D7ACF330088CAD4 /* PPTCollectionViewCircleLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPTCollectionViewCircleLayout.h; sourceTree = "<group>"; };
 		4075C8411D7ACF330088CAD4 /* PPTCollectionViewCircleLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPTCollectionViewCircleLayout.m; sourceTree = "<group>"; };
+		4075C8431D7D110F0088CAD4 /* PPTImageCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPTImageCollectionViewCell.h; sourceTree = "<group>"; };
+		4075C8441D7D110F0088CAD4 /* PPTImageCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPTImageCollectionViewCell.m; sourceTree = "<group>"; };
+		4075C8461D7D17630088CAD4 /* PPTPoingDateView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPTPoingDateView.h; sourceTree = "<group>"; };
+		4075C8471D7D17630088CAD4 /* PPTPoingDateView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPTPoingDateView.m; sourceTree = "<group>"; };
+		4075C8491D7D32530088CAD4 /* PPTPoint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPTPoint.h; sourceTree = "<group>"; };
+		4075C84A1D7D32530088CAD4 /* PPTPoint.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPTPoint.m; sourceTree = "<group>"; };
+		7777C0D370F170C4D815A835 /* Pods-collectionViewLayout.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-collectionViewLayout.debug.xcconfig"; path = "Pods/Target Support Files/Pods-collectionViewLayout/Pods-collectionViewLayout.debug.xcconfig"; sourceTree = "<group>"; };
+		A14E14A1932722F81C7EF3A5 /* Pods-collectionViewLayout.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-collectionViewLayout.release.xcconfig"; path = "Pods/Target Support Files/Pods-collectionViewLayout/Pods-collectionViewLayout.release.xcconfig"; sourceTree = "<group>"; };
+		AB587A780A81B18B73668D73 /* libPods-collectionViewLayout.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-collectionViewLayout.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +49,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1FF6287F9CB9BAFD4BF946D6 /* libPods-collectionViewLayout.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		08DEFC639DA8E43B57E264A7 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7777C0D370F170C4D815A835 /* Pods-collectionViewLayout.debug.xcconfig */,
+				A14E14A1932722F81C7EF3A5 /* Pods-collectionViewLayout.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		4075C81D1D7ACDF60088CAD4 = {
 			isa = PBXGroup;
 			children = (
 				4075C8281D7ACDF60088CAD4 /* collectionViewLayout */,
 				4075C8271D7ACDF60088CAD4 /* Products */,
+				08DEFC639DA8E43B57E264A7 /* Pods */,
+				FC03627CE051B64F4A15DF88 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -61,17 +86,23 @@
 		4075C8281D7ACDF60088CAD4 /* collectionViewLayout */ = {
 			isa = PBXGroup;
 			children = (
+				4075C8491D7D32530088CAD4 /* PPTPoint.h */,
+				4075C84A1D7D32530088CAD4 /* PPTPoint.m */,
 				4075C8401D7ACF330088CAD4 /* PPTCollectionViewCircleLayout.h */,
 				4075C8411D7ACF330088CAD4 /* PPTCollectionViewCircleLayout.m */,
 				4075C82C1D7ACDF60088CAD4 /* AppDelegate.h */,
 				4075C82D1D7ACDF60088CAD4 /* AppDelegate.m */,
 				4075C82F1D7ACDF60088CAD4 /* ViewController.h */,
 				4075C8301D7ACDF60088CAD4 /* ViewController.m */,
+				4075C8461D7D17630088CAD4 /* PPTPoingDateView.h */,
+				4075C8471D7D17630088CAD4 /* PPTPoingDateView.m */,
 				4075C8321D7ACDF60088CAD4 /* Main.storyboard */,
 				4075C8351D7ACDF60088CAD4 /* Assets.xcassets */,
 				4075C8371D7ACDF60088CAD4 /* LaunchScreen.storyboard */,
 				4075C83A1D7ACDF60088CAD4 /* Info.plist */,
 				4075C8291D7ACDF60088CAD4 /* Supporting Files */,
+				4075C8431D7D110F0088CAD4 /* PPTImageCollectionViewCell.h */,
+				4075C8441D7D110F0088CAD4 /* PPTImageCollectionViewCell.m */,
 			);
 			path = collectionViewLayout;
 			sourceTree = "<group>";
@@ -84,6 +115,14 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		FC03627CE051B64F4A15DF88 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB587A780A81B18B73668D73 /* libPods-collectionViewLayout.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -91,9 +130,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4075C83D1D7ACDF60088CAD4 /* Build configuration list for PBXNativeTarget "collectionViewLayout" */;
 			buildPhases = (
+				09052450CEF36F11264BAD9F /* [CP] Check Pods Manifest.lock */,
 				4075C8221D7ACDF60088CAD4 /* Sources */,
 				4075C8231D7ACDF60088CAD4 /* Frameworks */,
 				4075C8241D7ACDF60088CAD4 /* Resources */,
+				7B7FD5EFC99B797767811B27 /* [CP] Embed Pods Frameworks */,
+				3D632C24FA384608614C542D /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -149,15 +191,66 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		09052450CEF36F11264BAD9F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3D632C24FA384608614C542D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-collectionViewLayout/Pods-collectionViewLayout-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7B7FD5EFC99B797767811B27 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-collectionViewLayout/Pods-collectionViewLayout-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		4075C8221D7ACDF60088CAD4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4075C8451D7D110F0088CAD4 /* PPTImageCollectionViewCell.m in Sources */,
 				4075C8311D7ACDF60088CAD4 /* ViewController.m in Sources */,
 				4075C8421D7ACF330088CAD4 /* PPTCollectionViewCircleLayout.m in Sources */,
+				4075C8481D7D17630088CAD4 /* PPTPoingDateView.m in Sources */,
 				4075C82E1D7ACDF60088CAD4 /* AppDelegate.m in Sources */,
 				4075C82B1D7ACDF60088CAD4 /* main.m in Sources */,
+				4075C84B1D7D32530088CAD4 /* PPTPoint.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,6 +362,7 @@
 		};
 		4075C83E1D7ACDF60088CAD4 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7777C0D370F170C4D815A835 /* Pods-collectionViewLayout.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = collectionViewLayout/Info.plist;
@@ -280,6 +374,7 @@
 		};
 		4075C83F1D7ACDF60088CAD4 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A14E14A1932722F81C7EF3A5 /* Pods-collectionViewLayout.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = collectionViewLayout/Info.plist;
@@ -308,6 +403,7 @@
 				4075C83F1D7ACDF60088CAD4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
